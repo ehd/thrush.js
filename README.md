@@ -78,3 +78,16 @@ instead of `B([q, r])`? Are there good reasons to do that?
 
 This is probably most useful when provided as a wrapper so the library
 user can decide when to unpack for each point in the chain.
+
+### Interesting concepts from other languages
+
+Haskell
+
+- http://www.haskell.org/haskellwiki/Continuation
+- http://www.haskell.org/haskellwiki/Monad#Special_notation
+- http://www.haskell.org/haskellwiki/Do\_notation\_considered_harmful
+
+Clojure
+
+- http://clojuredocs.org/clojure_core/clojure.core/-&gt;&gt;
+- http://clojuredocs.org/clojure_core/clojure.core/-&gt;
