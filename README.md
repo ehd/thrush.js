@@ -50,6 +50,17 @@ Given `X = thrush(A, B)` and `x = X(p)`:
 Ideas
 -----
 
+### Different ways to combine functions
+
+Right now there are two implemented approaches:
+
+- Reduce an array of functions using a wrap function
+- Build a static chain of functions
+
+New idea:
+
+- Code generation: Read function’s source and concatenate to composite function. Inherently evil and predestined to break, but worth a try.
+
 ### Asynchronicity with continuation-style functions
 
 Thrush usually combines functions for immediate synchronous execution.
