@@ -24,13 +24,13 @@ Thrush combines a variable number of functions into one function.
 It is best explained by a simple example:
 
     function square(x) {
-        return x*2;
+        return x*x;
     }
 
     var squareThreeTimes = thrush(square, square, square);
 
     squareThreeTimes(2)
-    > 16
+    > 256
 
 `squareThreeTimes`'s behavior is identical to the following definition:
 
